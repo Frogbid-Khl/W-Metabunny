@@ -212,3 +212,95 @@ body {
 .nav-link-button:hover {
     color: #fff;
 }
+
+.carousel{
+    width:90%;
+    margin:0px auto;
+}
+.slick-slide{
+    margin:10px;
+}
+.slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+}
+.wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:white;
+}
+
+.roadmap-image {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 214px;
+    border-radius: 50%;
+    border: 3px solid #444;
+}
+
+.custom-card{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.custom-card-title{
+    font-family: 'Metabunny-Font';
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.custom-card-community{
+    background-image: linear-gradient(315deg,#3f0d12,#a71d31 74%);
+    color: white;
+    border: none;
+}
+
+.top_button{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #f7b42c;
+    background-image: linear-gradient(315deg,#f7b42c,#fc575e 74%);
+    border: none;
+}
+
+.top_button:hover{
+    background-color: #fc575e;
+    background-image: linear-gradient(315deg,#fc575e,#f7b42c 74%);
+}
+
+
+.nav-item .footer-link{
+    font-family: Metabunny-Font;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+.nav-item .footer-link:hover{
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -100px;
+    z-index: 1;
+}
+
+.footer-bg{
+    z-index: -1;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+}
